@@ -2,7 +2,7 @@
 {
     public static void Main()
     {
-        Console.WriteLine("Enter your name:");
+        Console.WriteLine("Enter your name or a string:");
         string name = Console.ReadLine();
 
         string reverseString = StringToReverse(name);

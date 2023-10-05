@@ -2,12 +2,13 @@
 {
     public static void Main()
     {
-        Console.WriteLine("Enter a string:");
+        Console.WriteLine("Enter your name:");
         string name = Console.ReadLine();
 
         string reverseString = StringToReverse(name);
         Console.WriteLine(reverseString);
     }
+
 
     private static string StringToReverse(string? name)
     {

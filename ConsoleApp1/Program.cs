@@ -6,7 +6,7 @@
         string name = Console.ReadLine();
 
         string reverseString = StringToReverse(name);
-        Console.WriteLine($"There reverse of {name} is {reverseString}");
+        Console.WriteLine($"The reverse of {name} is {reverseString}");
     }
 
 
